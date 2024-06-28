@@ -25,6 +25,7 @@ const initialData = [
 
 export default function Home({ id }) {
   const [data, setData] = useState(initialData);
+
   const rotateData = () => {
     const newData = [...data];
     newData.unshift(newData.pop());

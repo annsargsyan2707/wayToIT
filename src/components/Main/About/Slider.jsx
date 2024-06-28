@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { ArrowLeft, ArrowRight } from "lucide-react";
+//import { ArrowRight } from "lucide-react";
 
 const images = [
   "https://images.unsplash.com/photo-1546074177-ffdda98d214f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -25,15 +27,15 @@ export default function Slider() {
       <div className="flex justify-between">
         <button
           onClick={prevImage}
-          className="absolute bottom-1/2 left-1 text-fuchsia-500   font-bold text-xl"
+          className="absolute bottom-1/2 left-1 text-slate-500   font-bold text-xl"
         >
-          {"<"}
+          <ArrowLeft />
         </button>
         <button
           onClick={nextImage}
-          className="absolute bottom-1/2 right-1 text-fuchsia-500   font-bold text-xl"
+          className="absolute bottom-1/2 right-1 text-slate-500   font-bold text-xl"
         >
-          {">"}
+          <ArrowRight />
         </button>
       </div>
     </div>
