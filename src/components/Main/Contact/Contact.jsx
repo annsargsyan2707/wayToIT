@@ -22,9 +22,7 @@ export default function ContactUs({ id }) {
       <div className="flex  text-[#f1dbca] justify-between w-full">
         <div className="flex flex-col text-[#f1dbca]  p-4 gap-4 justify-center items-center">
           <Contact className="size-24" color="#FF8236" />
-          <h2 className="text-cyan-600 font-bold text-2xl py-4 font-normal">
-            FIND US
-          </h2>
+          <h2 className="text-cyan-600 text-2xl py-4 font-normal">FIND US</h2>
           <span className="flex gap-6">
             <Facebook /> <Instagram /> <Mails />
           </span>
@@ -35,7 +33,7 @@ export default function ContactUs({ id }) {
         </div>
         <div className="flex flex-col text-[#f1dbca]  p-4 gap-4 justify-center items-center">
           <NotebookPen className="size-24" color="#FF8236" />
-          <h2 className="text-cyan-600 font-bold text-2xl py-4 font-normal">
+          <h2 className="text-cyan-600 text-2xl py-4 font-normal">
             START A NEW CASE
           </h2>
         </div>
